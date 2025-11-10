@@ -17,7 +17,6 @@ def pregunta_12():
     """
 
     columns = {}
-
     with open("files/input/data.csv", "r") as file:
         for line in file:
             parts = line.strip().split("\t")
